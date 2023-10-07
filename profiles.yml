@@ -4,4 +4,4 @@ my_databricks_profile:
     dev:
       type: databricks
       connection: "databricks-conn"
-      schema: "jf-schema"
+      schema: "default"
