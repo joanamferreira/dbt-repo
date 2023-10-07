@@ -1,0 +1,6 @@
+my_databricks_profile:
+  target: dev
+  outputs:
+    dev:
+      type: databricks
+      connection: "databricks-conn"
