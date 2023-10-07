@@ -1,3 +1,6 @@
-name: my_dbt_project
+name: jaffle_shop
 version: '1.0.0'
 profile: my_databricks_profile
+models:
+  jaffle_shop:
+    +materialized: table
