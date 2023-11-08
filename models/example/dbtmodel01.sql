@@ -11,9 +11,9 @@
 
 with source_data as (
 
-    select 16 as id, 15 as code
+    select 77 as id, 15 as code
     union all
-    select null as id, 3 as code
+    select 7 as id, 3 as code
 
 )
 
