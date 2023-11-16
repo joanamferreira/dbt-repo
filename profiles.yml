@@ -8,3 +8,4 @@ my_databricks_profile:
       http_path: "/sql/1.0/warehouses/6b6f1509399b1b43"
       token: "dapie189a977f5f98134dd39259efd6c16cd-2"
       schema: "default"
+      location: EU
