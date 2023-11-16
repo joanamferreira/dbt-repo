@@ -17,7 +17,7 @@ with source_data as (
     union all
     select 6 as id, 3 as code
     union all
-    select 5 as id, 5 as code
+    select null as id, 5 as code
 
 )
 
