@@ -11,13 +11,13 @@
 
 with source_data as (
 
-    select 22 as id, 15 as code
+    select 22 as id, 15 as code, 15 as nCol
     union all
-    select 11 as id, 3 as code
+    select 11 as id, 3 as code, 15 as nCol
     union all
-    select 79 as id, 3 as code
+    select 79 as id, 3 as code, 15 as nCol
     union all
-    select null as id, 5 as code
+    select null as id, 5 as code, 15 as nCol
 
 )
 
